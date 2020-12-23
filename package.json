@@ -19,6 +19,7 @@
   "author": "Ismael Nascimento",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "prettier": "2.2.1"
   }
 }
