@@ -26,6 +26,7 @@ footer {
 
 .container {
     max-width: 1140px;
+    margin: 0 auto;
 }
 
 ul {
@@ -37,11 +38,17 @@ ul {
 .navbar {
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar__container {
     display: grid;
     grid-template-columns: 1fr 9fr;
     align-items: center;
-    top: 0;
-    left: 0;
     
     width: 100vw;
     padding: 0 1rem;
@@ -165,7 +172,6 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-items: center;
-    margin: 0;
     padding: 4.375rem 1rem;
 }
 
@@ -184,6 +190,10 @@ ul {
     gap: 3.125rem;
     align-items: center;
     padding: 4.375rem;
+}
+
+.institutional__image {
+    max-width: 550px;
 }
 
 .institutional__copy {
