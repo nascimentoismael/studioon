@@ -261,11 +261,16 @@ ul {
     line-height: 5rem;
     text-transform: uppercase;
     letter-spacing: -.1875rem;
-    margin-top: 1.875rem;
+    margin: 1.875rem 0;
+
 }
 
 .quote__copy h2 span {
     display: block;
 }
 
-.btn--quote{}
+.btn--quote{
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+    background: unset;
+}
