@@ -95,6 +95,11 @@ ul {
     float: right;
 }
 
+.logo-studion a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .copy--primary {
     color: var(--color-primary);
 }
