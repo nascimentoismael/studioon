@@ -1,6 +1,6 @@
 .shows__info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr auto;
 }
 
 .shows__info h3 {
@@ -9,6 +9,10 @@
   letter-spacing: 0.25rem;
   color: var(--color-copy);
   text-transform: uppercase;
+
+  align-items: center;
+  margin: 0;
+  float: inline-start;
 }
 
 .shows__info span {
@@ -36,4 +40,10 @@
 
 .shows__info__container {
   padding-left: 3.4375rem;
+}
+
+.event__img {
+  float: left;
+  margin-top: 5rem;
+  display: inline-block;
 }
