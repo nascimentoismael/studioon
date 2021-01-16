@@ -1,0 +1,54 @@
+.enterprise__copy {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.enterprise__man img {
+  z-index: 2;
+}
+
+.enterprise__copy h3 {
+  display: inline;
+
+  font-size: 1.56rem;
+  font-weight: 700;
+  color: var(--color-copy);
+
+  float: left;
+  margin-top: 6.75rem;
+  margin-bottom: 0;
+}
+
+.enterprise__copy p {
+  display: inline;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.68rem;
+
+  float: left;
+  margin-top: 2.93rem;
+}
+
+.enterprise__logos {
+  z-index: 1;
+  background-color: var(--color-primary);
+}
+
+.enterprise__logos_copy h3 {
+  text-align: center;
+  color: var(--color-copy);
+  margin: -1rem;
+
+  padding-top: 4.12rem;
+  margin-bottom: 3.44rem;
+}
+
+.enterprise__logos_copy img {
+  align-self: center;
+  padding-bottom: 4.12rem;
+}
+
+.enterprise__video {
+  margin: 20rem;
+  text-align: center;
+}

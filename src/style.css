@@ -14,3 +14,6 @@
 /* Pages */
 @import "./css/_home.css";
 @import "./css/_contacts.css";
+@import "./css/_events.css";
+@import "./css/_enterprise.css";
+@import "./css/_testimonials.css";

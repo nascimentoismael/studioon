@@ -1,0 +1,49 @@
+.shows__info {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.shows__info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  color: var(--color-copy);
+  text-transform: uppercase;
+
+  align-items: center;
+  margin: 0;
+  float: inline-start;
+}
+
+.shows__info span {
+  font-size: 0.93rem;
+  font-weight: 700;
+  letter-spacing: 0.1875rem;
+}
+
+.event__time {
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+
+.shows__info p {
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: var(--color-copy);
+  line-height: 1.6875rem;
+}
+
+.shows__info i {
+  float: left;
+  color: var(--color-primary);
+}
+
+.shows__info__container {
+  padding-left: 3.4375rem;
+}
+
+.event__img {
+  float: left;
+  margin-top: 5rem;
+  display: inline-block;
+}
