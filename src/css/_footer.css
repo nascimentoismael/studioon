@@ -13,13 +13,9 @@
   padding: 5rem 0;
 }
 
-.footer.logo-studion {
+.footer .logo-studion {
   justify-self: start;
   margin: 0;
-}
-
-.logo-studion__subtitle {
-  display: block;
 }
 
 .footer__form {
