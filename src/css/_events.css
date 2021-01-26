@@ -45,5 +45,7 @@
 .event__img {
   float: left;
   margin-top: 5rem;
-  display: inline-block;
+}
+
+.event__details {
 }
