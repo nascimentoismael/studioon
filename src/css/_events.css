@@ -1,3 +1,8 @@
+.shows {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
 .shows__info {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -45,7 +50,13 @@
 .event__img {
   float: left;
   margin-top: 5rem;
+  grid-column-start: 1;
 }
 
 .event__details {
+  grid-column-start: 2;
+}
+
+.event__buy {
+  grid-column-start: 3;
 }
