@@ -7,4 +7,19 @@ $(document).ready(() => {
         nextArrow: '<button type="button" class="slick-next slider__next-arrow">Previous</button;'
 };
     $(".slider").slick(slickOptions);
+
+    $('.footer__form-button').on('Click', () => {
+        const email = $('#email').val();
+        Email.send({
+            Host : "smtp.yourisp.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : email,
+            Subject : "Adicionar inscrição",
+            Body : `Incluir ${email} a subscrição`
+        }).then(
+        message => alert(message)
+        );
+    });
 });
