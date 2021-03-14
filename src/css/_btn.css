@@ -1,6 +1,7 @@
 .btn {
   cursor: pointer;
   padding: 1rem 2.5rem;
+  margin-right: 2rem;
   border: 0.125rem solid #fff;
   border-radius: 5rem;
   color: var(--color-primary);
@@ -19,6 +20,21 @@
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #fff;
+}
+
+/* mobile */
+.btn--institutional,
+.btn--quote {
+  display: block;
+  margin: 0 auto;
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .btn--institutional,
+  .btn--quote {
+    display: inline;
+  }
 }
 
 .btn--institutional:hover,
