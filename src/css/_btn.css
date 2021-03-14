@@ -1,15 +1,35 @@
 .btn {
   cursor: pointer;
+  
   padding: 1rem 2.5rem;
+  margin-left: 2rem;
   margin-right: 2rem;
+  
   border: 0.125rem solid #fff;
   border-radius: 5rem;
   color: var(--color-primary);
   background: unset;
+  
   font-size: 0.9375rem;
   font-weight: 700;
   text-transform: uppercase;
   transition: 0.3s all ease;
+}
+
+.btn--slide {
+  position: absolute;
+  align-self: center;
+
+  max-width: fit-content;
+
+  left: 33vw;
+  top: 80vh;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn--slide {
+    left: 49vw;
+  }
 }
 
 .btn:hover,
