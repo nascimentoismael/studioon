@@ -1,0 +1,11 @@
+.shows__pics {
+    background-color: #000;
+    display: grid;
+
+    grid-template-columns: 15.93rem 15.93rem 15.93rem 15.93rem;
+    gap: 3rem;
+
+    padding-top: 10rem;
+    padding-bottom: 14.5rem;
+    padding-left: 8rem;
+}
